@@ -1,0 +1,43 @@
+body {
+    background-color: #1a1a1a; /* Dark grey background for a sleek look */
+    font-family: Arial, sans-serif; /* Ensuring font family is clearly defined */
+    color: #ffffff; /* White text color for better readability on dark background */
+}
+
+.container {
+    position: relative; /* Explicit positioning */
+    width: 80%;
+    margin: 0 auto; /* Centers the div in the middle of the page */
+    padding: 20px;
+    background-color: #ffffff; /* Keeping content container white for contrast */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Enhanced shadow for depth */
+}
+
+header, footer { /* Assuming header and footer are also divs */
+    position: relative; /* Explicit positioning for additional divs */
+    width: 100%;
+    background-color: #333; /* Dark background for header/footer */
+    color: white; /* Ensuring text color contrasts with background */
+    padding: 10px 0; /* Padding for aesthetic spacing */
+}
+
+h1, h2 {
+    color: #d40000; /* Red color for headings, typical of Ferrari and other F1 brands */
+}
+
+p, li {
+    color: #8B0000; /* Dark red color for paragraphs and list items */
+}
+
+nav a {
+    background-color: #d40000; /* Red background for navigation links */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Centering images within the container */
+}
